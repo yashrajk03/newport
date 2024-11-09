@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #2C3E50;
+}
+
+header {
+  background-color: #2C3E50;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background: #2C3E50;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+}
+
+.hero-content .cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: #2C3E50;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.project {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
